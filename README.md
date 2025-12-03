@@ -54,17 +54,17 @@ If you want to use cached/local models (avoid network timeouts), copy `.env.exam
 
 | Variable | Description (EN) | 說明 (中文) | Example |
 | --- | --- | --- | --- |
-| `NT_MODEL_PATH` | Path to your downloaded model folder. Points the app to local weights instead of downloading. | 已下載模型資料夾路徑，用本機權重避免重新下載。 | `C:\Users\%USERNAME%\DNA-Analysis-Tool-Transformer\models\%model_name%` |
-| `NT_LOCAL_ONLY` | `1/true/yes` to force offline/local-files-only mode. | 設為 `1/true/yes` 強制離線模式只讀本機檔案。 | `1` |
-| `HF_HUB_ENABLE_HF_TRANSFER` | Enable faster segmented downloads from Hugging Face. No effect if `NT_LOCAL_ONLY=1`. | 啟用 Hugging Face 分段加速下載（離線模式不受影響）。 | `1` |
+| `MODEL_PATH` | Path to your downloaded model folder. Points the app to local weights instead of downloading. | 已下載模型資料夾路徑，用本機權重避免重新下載。 | `C:\Users\%USERNAME%\DNA-Analysis-Tool-Transformer\models\%model_name%` |
+| `LOCAL_ONLY` | `1/true/yes` to force offline/local-files-only mode. | 設為 `1/true/yes` 強制離線模式只讀本機檔案。 | `1` |
+| `HF_HUB_ENABLE_HF_TRANSFER` | Enable faster segmented downloads from Hugging Face. No effect if `LOCAL_ONLY=1`. | 啟用 Hugging Face 分段加速下載（離線模式不受影響）。 | `1` |
 | `HF_HUB_DOWNLOAD_TIMEOUT` | Seconds to wait for hub responses when downloading. | 下載時的逾時秒數。 | `1800` |
 
 Steps (簡要步驟):
 1. Copy `.env.example` to `.env`. / 複製 `.env.example` 為 `.env`。
-2. Set `NT_MODEL_PATH` to your cache folder; set `NT_LOCAL_ONLY=1` if you want offline-only. / 設定 `NT_MODEL_PATH` 為模型快取路徑，若要離線請設 `NT_LOCAL_ONLY=1`。
+2. Set `MODEL_PATH` to your cache folder; set `LOCAL_ONLY=1` if you want offline-only. / 設定 `MODEL_PATH` 為模型快取路徑，若要離線請設 `LOCAL_ONLY=1`。
 3. Launch the app; in UI, you can still toggle “Use local files only.” / 啟動程式後，可在介面勾選「Use local files only」。
 
-Desktop app: select the model from the dropdown (or set `NT_MODEL_PATH` to a local copy).  
+Desktop app: select the model from the dropdown (or set `MODEL_PATH` to a local copy).  
 Colab: choose the model in the “Model” dropdown before initialization.
 
 ### Usage (使用方法)
