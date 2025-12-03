@@ -93,8 +93,8 @@ Suitable for users without a powerful local GPU. Runs entirely in the browser.
 
 1.  Open [Google Colab](https://colab.research.google.com/).
     打開 [Google Colab](https://colab.research.google.com/)。
-2.  **Create a New Notebook** and copy the code from `dna_colab.py` (or upload the notebook file).
-    **新建筆記本** 並複製 `dna_colab.py` 中的代碼（或直接上傳 `.ipynb` 文件）。
+2.  **Create a New Notebook** and copy the code from `dna_colab.ipynb` (or upload the notebook file).
+    **新建筆記本** 並複製 `dna_colab.ipynb` 中的代碼（或直接上傳 `.ipynb` 文件）。
 3.  **Enable GPU Runtime (啟用 GPU)**:
     *   Go to menu: `Runtime` > `Change runtime type`.
     *   Select **T4 GPU** (Essential!).
