@@ -1,12 +1,11 @@
 # DNA Analysis Tool
 ### 🧬 AI-Powered DNA Classification & Repair Tool | AI 驅動的 DNA 分類與修復工具
-A powerful tool utilizing Transformer model to analyze DNA sequences. It supports classifying text data as DNA and repairing sequences with missing bases ('N'). Available as a local Python desktop app and a Google Colab notebook.
 
-![Python](https://img.shields.io/badge/Python-3.8%2B-blue) ![PyTorch](https://img.shields.io/badge/PyTorch-2.0%2B-orange)
+![Python](https://img.shields.io/badge/Python-3.8%2B-blue) ![PyTorch](https://img.shields.io/badge/PyTorch-2.2%2B-orange)
 
-**English**: A powerful tool utilizing Transformer model to analyze DNA sequences. It supports classifying text data as DNA and repairing sequences with missing bases ('N'). Available as a local Python desktop app and a Google Colab notebook.
+**English**: A powerful tool utilizing Transformer model to analyze DNA sequences in batch. It supports classifying text data as DNA and repairing sequences with missing bases ('N'). Available as a local Python desktop app and a Google Colab notebook.
 
-**中文**: 一款利用 Transformer 模型來分析 DNA 序列的強大工具。支持判斷文本數據是否為有效 DNA，以及修復缺失鹼基（'N'）的序列。提供本地 Python 桌面版和 Google Colab 雲端版。
+**中文**: 一款利用 Transformer 模型來批量分析 DNA 序列的強大工具。支持判斷文本數據是否為有效 DNA，以及修復缺失鹼基（'N'）的序列。提供本地 Python 桌面版和 Google Colab 雲端版。
 
 ---
 
