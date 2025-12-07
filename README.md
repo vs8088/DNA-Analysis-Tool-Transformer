@@ -165,3 +165,4 @@ The generated `test_dna_data.csv` contains various scenarios to evaluate the mod
 ## 📜 License
 
 This code is licensed under the MIT License - see the [LICENSE] file for details.
+However, please note that the default supported model weights use CC BY-NC-SA 4.0, which is for non-commercial use only.
