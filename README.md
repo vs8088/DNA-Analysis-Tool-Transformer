@@ -33,7 +33,7 @@ Suitable for users with a dedicated NVIDIA GPU. It provides a graphical user int
 
 ### Installation (安裝步驟)
 
-1.  **Clone the repository (克隆項目)**:
+1.  **Clone the repository (複製項目)**:
     ```
     git clone https://github.com/vs8088/DNA-Analysis-Tool-Transformer.git
     cd DNA-Analysis-Tool-Transformer
