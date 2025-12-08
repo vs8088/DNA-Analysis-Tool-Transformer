@@ -1,7 +1,7 @@
 # DNA Analysis Tool
 ### 🧬 AI-Powered DNA Classification & Repair Tool | AI 驅動的 DNA 分類與修復工具
 
-![Python](https://img.shields.io/badge/Python-3.8%2B-blue) ![PyTorch](https://img.shields.io/badge/PyTorch-2.2%2B-orange)
+![Python](https://img.shields.io/badge/Python-3.9%2B-blue) ![PyTorch](https://img.shields.io/badge/PyTorch-2.91%2B-orange)
 
 **English**: A powerful tool utilizing Transformer model to analyze DNA sequences in batch. It supports classifying text data as DNA and repairing sequences with missing bases ('N'). Available as a local Python desktop app and a Google Colab notebook.
 
@@ -27,7 +27,7 @@ Suitable for users with a dedicated NVIDIA GPU. It provides a graphical user int
 適合擁有 NVIDIA 顯卡的用戶，提供完整的圖形化介面。
 
 ### Prerequisites (前置需求)
-*   Python 3.8+
+*   Python 3.9+
 *   NVIDIA GPU (Recommended) with CUDA installed.
 *   RAM: 16GB+ (System RAM). Depands on model weight.
 
@@ -35,17 +35,19 @@ Suitable for users with a dedicated NVIDIA GPU. It provides a graphical user int
 
 1.  **Clone the repository (克隆項目)**:
     ```
-    https://github.com/vs8088/DNA-Analysis-Tool-Transformer.git
+    git clone https://github.com/vs8088/DNA-Analysis-Tool-Transformer.git
     cd DNA-Analysis-Tool-Transformer
     ```
 
 2.  **Install Dependencies (安裝依賴)**:
+    *(Note: For GPU support, ensure you install the CUDA version of PyTorch. Visit [pytorch.org](https://pytorch.org/) for the correct command.)*
+    *(注意：如需 GPU 加速，請確保安裝了 CUDA 版本的 PyTorch，請參考 [pytorch.org](https://pytorch.org/) 的安裝指令)*
+    ```
+    pip3 install torch torchvision --index-url https://download.pytorch.org/whl/cu126
+    ```
     ```
     pip install -q -r requirements.txt
     ```
-    *(Note: For GPU support, ensure you install the CUDA version of PyTorch. Visit [pytorch.org](https://pytorch.org/) for the correct command.)*
-    *(注意：如需 GPU 加速，請確保安裝了 CUDA 版本的 PyTorch，請參考 [pytorch.org](https://pytorch.org/) 的安裝指令)*
-
 ## .env Settings (.env 環境變數說明)
 
 If you want to use cached/local models (avoid network timeouts), copy `.env.example` to `.env` and adjust the values.  
